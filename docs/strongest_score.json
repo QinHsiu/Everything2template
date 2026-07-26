@@ -1,0 +1,72 @@
+{
+  "strongest_ready": true,
+  "quality_avg": 100.0,
+  "quality_threshold": 85,
+  "pipeline_ok": true,
+  "parity": 1.0,
+  "parity_ok": true,
+  "tests_ok": true,
+  "platforms": [
+    {
+      "platform": "wechat",
+      "ok": true,
+      "score": 100.0,
+      "errors": [],
+      "warnings": [],
+      "spam": [],
+      "h1": "别再同文换皮了：把任何材料变成可发布内容",
+      "chars": 1079,
+      "path": "content/exp/e2t-oss-strongest-v4/metrics/demo/wechat/export/draft.md"
+    },
+    {
+      "platform": "xiaohongshu",
+      "ok": true,
+      "score": 100.0,
+      "errors": [],
+      "warnings": [],
+      "spam": [],
+      "h1": "",
+      "chars": 624,
+      "path": "content/exp/e2t-oss-strongest-v4/metrics/demo/xiaohongshu/export/draft.md"
+    },
+    {
+      "platform": "zhihu",
+      "ok": true,
+      "score": 100.0,
+      "errors": [],
+      "warnings": [],
+      "spam": [],
+      "h1": "如何把「把任何材料变成可发布内容」写成有流量还不假的内容？",
+      "chars": 758,
+      "path": "content/exp/e2t-oss-strongest-v4/metrics/demo/zhihu/export/draft.md"
+    },
+    {
+      "platform": "weibo",
+      "ok": true,
+      "score": 100.0,
+      "errors": [],
+      "warnings": [],
+      "spam": [],
+      "h1": "",
+      "chars": 220,
+      "path": "content/exp/e2t-oss-strongest-v4/metrics/demo/weibo/export/draft.md"
+    },
+    {
+      "platform": "douyin",
+      "ok": true,
+      "score": 100.0,
+      "errors": [],
+      "warnings": [],
+      "spam": [],
+      "h1": "",
+      "chars": 428,
+      "path": "content/exp/e2t-oss-strongest-v4/metrics/demo/douyin/export/draft.md"
+    }
+  ],
+  "positioning": "Apache-2.0 open core — aim: best OSS multi-source→multi-platform adapter",
+  "next_if_fail": [
+    "Fix rewrite filler/truncation until validate errors empty",
+    "Raise per-platform structure depth vs oh-my converters",
+    "Keep ingest/export/MCP lead vs prompt-only packs"
+  ]
+}

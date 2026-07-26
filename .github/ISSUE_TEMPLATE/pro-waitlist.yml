@@ -1,0 +1,46 @@
+name: Pro waitlist
+description: Join the Everything2template Pro waitlist
+title: "[pro-waitlist] "
+labels: ["pro-waitlist"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest. Tell us how you create content so we can prioritize Pro features.
+  - type: input
+    id: platforms
+    attributes:
+      label: Platforms you publish to
+      placeholder: "WeChat, Xiaohongshu, Zhihu, ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: volume
+    attributes:
+      label: Weekly content volume
+      options:
+        - "1-2"
+        - "3-5"
+        - "6+"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Typical sources
+      placeholder: "PDFs, repos, URLs, interview notes..."
+    validations:
+      required: true
+  - type: textarea
+    id: pay
+    attributes:
+      label: Would you pay for Pro? What would unlock purchase?
+      placeholder: "Voice packs / batch / extra platforms / ..."
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (email or WeChat ok)
+    validations:
+      required: false

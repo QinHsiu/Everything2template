@@ -1,0 +1,282 @@
+{
+  "product_score": 100.0,
+  "product_ready_for_pro_core": true,
+  "gtm_score": 100.0,
+  "competitive_parity": 1.0,
+  "commercializable": true,
+  "growth_kpis_manual": {
+    "stripe_or_gumroad_live": false,
+    "waitlist_count": 0,
+    "design_partners_active": 0,
+    "target_waitlist": 50,
+    "target_design_partners": 3
+  },
+  "next_actions": [
+    "Publish docs/landing.html or equivalent public page",
+    "Open Pro waitlist via GitHub issue template",
+    "Recruit 3 design partners; log in docs/design_partners.md",
+    "Record demo from docs/demo_script.md",
+    "Connect Stripe/Gumroad when waitlist converts"
+  ],
+  "product_checks": [
+    {
+      "item": "README.md",
+      "ok": true,
+      "path": "README.md"
+    },
+    {
+      "item": "LICENSE",
+      "ok": true,
+      "path": "LICENSE"
+    },
+    {
+      "item": "pyproject.toml",
+      "ok": true,
+      "path": "pyproject.toml"
+    },
+    {
+      "item": "SKILL.md",
+      "ok": true,
+      "path": "skill/everything2template/SKILL.md"
+    },
+    {
+      "item": "wechat template",
+      "ok": true,
+      "path": "skill/everything2template/templates/wechat.md"
+    },
+    {
+      "item": "xhs template",
+      "ok": true,
+      "path": "skill/everything2template/templates/xiaohongshu.md"
+    },
+    {
+      "item": "zhihu template",
+      "ok": true,
+      "path": "skill/everything2template/templates/zhihu.md"
+    },
+    {
+      "item": "weibo template",
+      "ok": true,
+      "path": "skill/everything2template/templates/weibo.md"
+    },
+    {
+      "item": "douyin template",
+      "ok": true,
+      "path": "skill/everything2template/templates/douyin.md"
+    },
+    {
+      "item": "humanize",
+      "ok": true,
+      "path": "src/e2t/humanize.py"
+    },
+    {
+      "item": "wechat_html",
+      "ok": true,
+      "path": "src/e2t/export/wechat_html.py"
+    },
+    {
+      "item": "mcp_server",
+      "ok": true,
+      "path": "src/e2t/mcp_server.py"
+    },
+    {
+      "item": "competitive doc",
+      "ok": true,
+      "path": "docs/competitive.md"
+    },
+    {
+      "item": "gtm doc",
+      "ok": true,
+      "path": "docs/gtm.md"
+    },
+    {
+      "item": "demo input",
+      "ok": true,
+      "path": "examples/sample_inputs/demo_article.md"
+    },
+    {
+      "item": "cli module",
+      "ok": true,
+      "path": "src/e2t/cli.py"
+    },
+    {
+      "item": "tests",
+      "ok": true,
+      "path": "tests/test_pipeline.py"
+    }
+  ],
+  "gtm_checks": [
+    {
+      "item": "landing_md",
+      "ok": true,
+      "path": "docs/landing.md"
+    },
+    {
+      "item": "landing_html",
+      "ok": true,
+      "path": "docs/landing.html"
+    },
+    {
+      "item": "changelog",
+      "ok": true,
+      "path": "CHANGELOG.md"
+    },
+    {
+      "item": "support",
+      "ok": true,
+      "path": "SUPPORT.md"
+    },
+    {
+      "item": "waitlist_issue_template",
+      "ok": true,
+      "path": ".github/ISSUE_TEMPLATE/pro-waitlist.yml"
+    },
+    {
+      "item": "design_partners_log",
+      "ok": true,
+      "path": "docs/design_partners.md"
+    },
+    {
+      "item": "polished_samples",
+      "ok": true,
+      "path": "examples/sample_outputs/polished/wechat.md"
+    },
+    {
+      "item": "demo_script",
+      "ok": true,
+      "path": "docs/demo_script.md"
+    }
+  ],
+  "parity": {
+    "competitive_parity": 1.0,
+    "threshold": 0.85,
+    "pass": true,
+    "features": [
+      {
+        "feature": "ingest_url_pdf_docx",
+        "ok": true,
+        "path": "src/e2t/ingest/pdf.py"
+      },
+      {
+        "feature": "ingest_code_project",
+        "ok": true,
+        "path": "src/e2t/ingest/code_project.py"
+      },
+      {
+        "feature": "cir",
+        "ok": true,
+        "path": "src/e2t/cir.py"
+      },
+      {
+        "feature": "template_wechat",
+        "ok": true,
+        "path": "skill/everything2template/templates/wechat.md"
+      },
+      {
+        "feature": "template_xhs",
+        "ok": true,
+        "path": "skill/everything2template/templates/xiaohongshu.md"
+      },
+      {
+        "feature": "template_zhihu",
+        "ok": true,
+        "path": "skill/everything2template/templates/zhihu.md"
+      },
+      {
+        "feature": "template_weibo",
+        "ok": true,
+        "path": "skill/everything2template/templates/weibo.md"
+      },
+      {
+        "feature": "template_douyin",
+        "ok": true,
+        "path": "skill/everything2template/templates/douyin.md"
+      },
+      {
+        "feature": "humanize",
+        "ok": true,
+        "path": "src/e2t/humanize.py"
+      },
+      {
+        "feature": "compliance",
+        "ok": true,
+        "path": "src/e2t/compliance.py"
+      },
+      {
+        "feature": "wechat_html",
+        "ok": true,
+        "path": "src/e2t/export/wechat_html.py"
+      },
+      {
+        "feature": "pdf_export",
+        "ok": true,
+        "path": "src/e2t/export/__init__.py"
+      },
+      {
+        "feature": "mcp_server",
+        "ok": true,
+        "path": "src/e2t/mcp_server.py"
+      },
+      {
+        "feature": "voices",
+        "ok": true,
+        "path": "src/e2t/voices.py"
+      },
+      {
+        "feature": "validate",
+        "ok": true,
+        "path": "src/e2t/validate.py"
+      },
+      {
+        "feature": "research",
+        "ok": true,
+        "path": "src/e2t/research.py"
+      },
+      {
+        "feature": "images",
+        "ok": true,
+        "path": "src/e2t/images.py"
+      },
+      {
+        "feature": "titles",
+        "ok": true,
+        "path": "src/e2t/titles.py"
+      },
+      {
+        "feature": "sales",
+        "ok": true,
+        "path": "docs/sales.md"
+      },
+      {
+        "feature": "pro_pack",
+        "ok": true,
+        "path": "packaging/pro/README.md"
+      },
+      {
+        "feature": "skill",
+        "ok": true,
+        "path": "skill/everything2template/SKILL.md"
+      },
+      {
+        "feature": "landing",
+        "ok": true,
+        "path": "docs/landing.html"
+      },
+      {
+        "feature": "gap_analysis",
+        "ok": true,
+        "path": "content/exp/e2t-oss-loop-v1/analysis/gap_matrix.md"
+      },
+      {
+        "feature": "platforms_ge_5",
+        "ok": true,
+        "path": "adapt.PLATFORMS"
+      }
+    ],
+    "deferred": [
+      "auto_publish_login",
+      "image_search_pipeline",
+      "12_platform_prompt_pack_full_parity"
+    ]
+  }
+}

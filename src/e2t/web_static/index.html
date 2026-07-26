@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everything2template 试用台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Source+Han+Sans+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <header class="top">
+    <div class="brand">Everything2template</div>
+    <div class="meta" id="version">试用台</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>试用检验台</h1>
+      <p class="lead">根据你的真实材料做<strong>平台级改写</strong>（钩子 / 话题 / 保真），不是同文换皮骨架。目标：信息正确，又能停滑、能转发。</p>
+    </section>
+
+    <section class="panel">
+      <label class="lbl">文本材料</label>
+      <textarea id="source_text" rows="10" placeholder="粘贴网页正文、文档、笔记…"></textarea>
+
+      <div class="row">
+        <div class="col">
+          <label class="lbl">或 URL</label>
+          <input id="source_url" type="url" placeholder="https://…" />
+        </div>
+        <div class="col">
+          <label class="lbl">或上传文件</label>
+          <input id="upload" type="file" accept=".md,.txt,.pdf,.docx,.py,.json" />
+        </div>
+      </div>
+
+      <label class="lbl">目标平台</label>
+      <div class="chips" id="platforms"></div>
+
+      <div class="row">
+        <div class="col">
+          <label class="lbl">声线</label>
+          <select id="voice">
+            <option value="">默认</option>
+          </select>
+        </div>
+        <div class="col check">
+          <label><input type="checkbox" id="humanize" checked /> 去 AI 味</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col check">
+          <label><input type="checkbox" id="use_llm" checked /> 启用 LLM 精修（需配置 API Key）</label>
+        </div>
+        <div class="col">
+          <p class="hint" id="llmHint"></p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="run" type="button">改写并评分</button>
+        <button id="demo" type="button" class="ghost">填入示例文</button>
+      </div>
+      <p class="hint" id="status"></p>
+    </section>
+
+    <section class="score hidden" id="scoreBox">
+      <div class="score-num" id="scoreNum">—</div>
+      <div>
+        <div class="score-title" id="scoreVerdict">—</div>
+        <div class="score-sub" id="scoreSub">—</div>
+      </div>
+    </section>
+
+    <section class="results hidden" id="results">
+      <div class="tabs" id="tabs"></div>
+      <article class="card" id="panel">
+        <h2 id="pTitle"></h2>
+        <div class="badges" id="badges"></div>
+        <h3>备选标题</h3>
+        <ul id="titles"></ul>
+        <h3>草稿</h3>
+        <pre id="draft"></pre>
+        <h3>配图计划</h3>
+        <pre id="images"></pre>
+      </article>
+      <details class="brief">
+        <summary>查看 CIR 摘要</summary>
+        <pre id="brief"></pre>
+      </details>
+    </section>
+  </main>
+
+  <section class="panel pay">
+    <h2 class="pay-title">需要 Pro？走 Tecience</h2>
+    <p class="lead">微信关注公众号 <strong>Tecience</strong>，回复 <strong>E2T</strong> → ¥99 一次买断（声线包 / Pro 模板 / 批量工作流）。付款后回复「已付」获取安装包。</p>
+  </section>
+
+  <footer>
+    本地试用 · 不上传第三方 · 付费：关注 <strong>Tecience</strong> 回复 <strong>E2T</strong> · <code>e2t web</code>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

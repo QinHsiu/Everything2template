@@ -1,0 +1,132 @@
+{
+  "competitive_parity": 1.0,
+  "threshold": 0.85,
+  "pass": true,
+  "features": [
+    {
+      "feature": "ingest_url_pdf_docx",
+      "ok": true,
+      "path": "src/e2t/ingest/pdf.py"
+    },
+    {
+      "feature": "ingest_code_project",
+      "ok": true,
+      "path": "src/e2t/ingest/code_project.py"
+    },
+    {
+      "feature": "cir",
+      "ok": true,
+      "path": "src/e2t/cir.py"
+    },
+    {
+      "feature": "template_wechat",
+      "ok": true,
+      "path": "skill/everything2template/templates/wechat.md"
+    },
+    {
+      "feature": "template_xhs",
+      "ok": true,
+      "path": "skill/everything2template/templates/xiaohongshu.md"
+    },
+    {
+      "feature": "template_zhihu",
+      "ok": true,
+      "path": "skill/everything2template/templates/zhihu.md"
+    },
+    {
+      "feature": "template_weibo",
+      "ok": true,
+      "path": "skill/everything2template/templates/weibo.md"
+    },
+    {
+      "feature": "template_douyin",
+      "ok": true,
+      "path": "skill/everything2template/templates/douyin.md"
+    },
+    {
+      "feature": "humanize",
+      "ok": true,
+      "path": "src/e2t/humanize.py"
+    },
+    {
+      "feature": "compliance",
+      "ok": true,
+      "path": "src/e2t/compliance.py"
+    },
+    {
+      "feature": "wechat_html",
+      "ok": true,
+      "path": "src/e2t/export/wechat_html.py"
+    },
+    {
+      "feature": "pdf_export",
+      "ok": true,
+      "path": "src/e2t/export/__init__.py"
+    },
+    {
+      "feature": "mcp_server",
+      "ok": true,
+      "path": "src/e2t/mcp_server.py"
+    },
+    {
+      "feature": "voices",
+      "ok": true,
+      "path": "src/e2t/voices.py"
+    },
+    {
+      "feature": "validate",
+      "ok": true,
+      "path": "src/e2t/validate.py"
+    },
+    {
+      "feature": "research",
+      "ok": true,
+      "path": "src/e2t/research.py"
+    },
+    {
+      "feature": "images",
+      "ok": true,
+      "path": "src/e2t/images.py"
+    },
+    {
+      "feature": "titles",
+      "ok": true,
+      "path": "src/e2t/titles.py"
+    },
+    {
+      "feature": "sales",
+      "ok": true,
+      "path": "docs/sales.md"
+    },
+    {
+      "feature": "pro_pack",
+      "ok": true,
+      "path": "packaging/pro/README.md"
+    },
+    {
+      "feature": "skill",
+      "ok": true,
+      "path": "skill/everything2template/SKILL.md"
+    },
+    {
+      "feature": "landing",
+      "ok": true,
+      "path": "docs/landing.html"
+    },
+    {
+      "feature": "gap_analysis",
+      "ok": true,
+      "path": "content/exp/e2t-oss-loop-v1/analysis/gap_matrix.md"
+    },
+    {
+      "feature": "platforms_ge_5",
+      "ok": true,
+      "path": "adapt.PLATFORMS"
+    }
+  ],
+  "deferred": [
+    "auto_publish_login",
+    "image_search_pipeline",
+    "12_platform_prompt_pack_full_parity"
+  ]
+}

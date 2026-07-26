@@ -1,0 +1,29 @@
+# Image plan
+
+## 1. cover
+- Caption: 把任何材料变成可发布内容：我用 Everythi
+- Search: 把任何材料变成可发布内容：我用 Everything2template 做了一稿三发 封面 简约
+
+## 2. section
+- Caption: 源材料形态太多：网页、PDF、文档、代码、整个项目
+- Search: 源材料形态太多：网页、PDF、文档、代码、整个项目
+
+## 3. section
+- Caption: 平台语风差异大，模板套用不等于平台原生
+- Search: 平台语风差异大，模板套用不等于平台原生
+
+## 4. section
+- Caption: 导出经常卡在「只能复制文本」，不便存档或对外交付
+- Search: 导出经常卡在「只能复制文本」，不便存档或对外交付
+
+## 5. section
+- Caption: 先把材料摄入成 CIR（Canonical Intermediate Repre
+- Search: 先把材料摄入成 CIR（Canonical Intermed
+
+## 6. section
+- Caption: 再按平台模板重写结构（不是同文换皮）
+- Search: 再按平台模板重写结构（不是同文换皮）
+
+## 7. cta
+- Caption: 文末互动引导配图
+- Search: 在看 分享 简约图标

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "everything2template"
+version = "0.4.2"
+description = "Everything → WeChat / Xiaohongshu / Zhihu templates with Markdown & PDF export (agent skill + CLI)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "QinHsiu" }]
+keywords = ["cursor-skill", "wechat", "xiaohongshu", "zhihu", "content", "template", "export"]
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "html2text>=2024.2",
+  "httpx>=0.27",
+  "pypdf>=4.0",
+  "python-docx>=1.1",
+  "markdown>=3.5",
+  "fpdf2>=2.7",
+  "typer>=0.12",
+  "rich>=13.0",
+  "pydantic>=2.0",
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+research = ["ddgs>=9.0", "Pillow>=10.0"]
+
+[project.scripts]
+e2t = "e2t.cli:app"
+e2t-mcp = "e2t.mcp_server:main"
+e2t-web = "e2t.webapp:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+e2t = ["py.typed", "web_static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

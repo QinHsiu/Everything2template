@@ -1,0 +1,66 @@
+[
+  {
+    "title": "A Survey of Large Language Models",
+    "year": 2026,
+    "id": "https://openalex.org/W4362515116",
+    "cited_by": 1420,
+    "doi": "https://doi.org/10.1007/s11704-026-60308-3",
+    "abstract_inv": true
+  },
+  {
+    "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+    "year": 2022,
+    "id": "https://openalex.org/W3185341429",
+    "cited_by": 3672,
+    "doi": "https://doi.org/10.1145/3560815",
+    "abstract_inv": true
+  },
+  {
+    "title": "Query Rewriting in Retrieval-Augmented Large Language Models",
+    "year": 2023,
+    "id": "https://openalex.org/W4389518671",
+    "cited_by": 227,
+    "doi": "https://doi.org/10.18653/v1/2023.emnlp-main.322",
+    "abstract_inv": true
+  },
+  {
+    "title": "Identity and Language Learning",
+    "year": 2013,
+    "id": "https://openalex.org/W230660992",
+    "cited_by": 1639,
+    "doi": "https://doi.org/10.21832/9781783090563",
+    "abstract_inv": true
+  },
+  {
+    "title": "Academic Integrity considerations of AI Large Language Models in the post-pandemic era: ChatGPT and beyond",
+    "year": 2023,
+    "id": "https://openalex.org/W4321605350",
+    "cited_by": 703,
+    "doi": "https://doi.org/10.53761/1.20.02.07",
+    "abstract_inv": true
+  },
+  {
+    "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+    "year": 2022,
+    "id": "https://openalex.org/W3203321135",
+    "cited_by": 449,
+    "doi": "https://doi.org/10.1145/3491102.3517582",
+    "abstract_inv": true
+  },
+  {
+    "title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "year": 2017,
+    "id": "https://openalex.org/W2580035316",
+    "cited_by": 6293,
+    "doi": "https://doi.org/10.1186/s12859-017-1934-z",
+    "abstract_inv": true
+  },
+  {
+    "title": "Large language models for generative information extraction: a survey",
+    "year": 2024,
+    "id": "https://openalex.org/W4404239715",
+    "cited_by": 234,
+    "doi": "https://doi.org/10.1007/s11704-024-40555-y",
+    "abstract_inv": true
+  }
+]

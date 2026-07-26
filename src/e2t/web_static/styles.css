@@ -1,0 +1,123 @@
+:root {
+  --bg0: #0c1210;
+  --bg1: #14201a;
+  --fg: #eef3ef;
+  --muted: #9aada2;
+  --accent: #2f9e6e;
+  --accent2: #c4a35a;
+  --card: rgba(20, 32, 27, 0.88);
+  --line: rgba(180, 210, 190, 0.16);
+  --danger: #d96b5c;
+  --ok: #3cbe86;
+  --font: "Noto Sans SC", "Source Han Sans SC", "DM Sans", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  font-family: var(--font);
+  color: var(--fg);
+  background: var(--bg0);
+  line-height: 1.55;
+}
+.bg {
+  position: fixed; inset: 0; z-index: -1;
+  background:
+    radial-gradient(900px 500px at 12% -10%, #1d4a36 0%, transparent 55%),
+    radial-gradient(700px 420px at 90% 10%, #3a3420 0%, transparent 50%),
+    linear-gradient(180deg, #0e1612, #0a0f0d 70%);
+}
+.top {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 22px 28px 0; max-width: 980px; margin: 0 auto;
+}
+.brand {
+  font-family: "DM Sans", var(--font);
+  font-weight: 700; letter-spacing: 0.04em; font-size: 1.05rem;
+  color: var(--accent);
+}
+.meta { color: var(--muted); font-size: 0.9rem; }
+main { max-width: 980px; margin: 0 auto; padding: 18px 28px 72px; }
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin: 18px 0 8px; letter-spacing: -0.02em;
+}
+.lead { color: var(--muted); max-width: 36rem; margin: 0 0 28px; }
+.panel, .card, .score {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+}
+.lbl { display: block; font-size: 0.85rem; color: var(--muted); margin: 14px 0 6px; }
+textarea, input[type=url], input[type=file], select {
+  width: 100%;
+  background: #0b1210;
+  color: var(--fg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font: inherit;
+}
+textarea { resize: vertical; min-height: 160px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .row { grid-template-columns: 1fr; } }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--fg);
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font: inherit;
+}
+.chip.on { background: rgba(47,158,110,0.2); border-color: var(--accent); color: #b9f0d2; }
+.check { display: flex; align-items: end; padding-bottom: 8px; }
+.actions { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+button {
+  border: 0; border-radius: 10px; padding: 12px 18px;
+  font: inherit; font-weight: 700; cursor: pointer;
+  background: var(--accent); color: #04140f;
+}
+button.ghost { background: transparent; border: 1px solid var(--line); color: var(--fg); }
+button:disabled { opacity: 0.55; cursor: wait; }
+.hint { color: var(--muted); min-height: 1.4em; }
+.score {
+  margin-top: 18px; display: flex; gap: 18px; align-items: center;
+}
+.score.hidden, .results.hidden { display: none; }
+.score-num {
+  font-family: "DM Sans", sans-serif;
+  font-size: 3rem; font-weight: 700; color: var(--accent2);
+  min-width: 4.5rem;
+}
+.score-title { font-size: 1.15rem; font-weight: 700; }
+.score-sub { color: var(--muted); font-size: 0.92rem; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 10px; }
+.tab {
+  border: 1px solid var(--line); background: #0d1512; color: var(--fg);
+  border-radius: 10px; padding: 8px 12px; cursor: pointer; font: inherit;
+}
+.tab.on { border-color: var(--accent); background: rgba(47,158,110,0.15); }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 14px; }
+.badge {
+  font-size: 0.8rem; padding: 4px 8px; border-radius: 6px;
+  border: 1px solid var(--line);
+}
+.badge.ok { color: var(--ok); border-color: rgba(60,190,134,0.4); }
+.badge.bad { color: var(--danger); border-color: rgba(217,107,92,0.45); }
+pre {
+  white-space: pre-wrap; word-break: break-word;
+  background: #0a100e; border: 1px solid var(--line);
+  border-radius: 10px; padding: 14px; font-size: 0.92rem;
+  max-height: 420px; overflow: auto;
+}
+.brief { margin-top: 16px; color: var(--muted); }
+.pay { margin-top: 28px; }
+.pay-title { margin: 0 0 8px; font-size: 1.15rem; color: var(--accent2); }
+footer {
+  text-align: center; color: var(--muted); padding: 0 20px 40px; font-size: 0.85rem;
+}
+code { color: #cfe8da; }

@@ -1,0 +1,7 @@
+[
+  {
+    "source": "examples/sample_inputs/demo_article.md",
+    "ok": true,
+    "out": "content\\exp\\e2t-profit-loop-v2\\metrics\\batch_demo\\01"
+  }
+]

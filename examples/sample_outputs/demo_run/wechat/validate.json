@@ -1,0 +1,9 @@
+{
+  "platform": "wechat",
+  "ok": true,
+  "score": 90.0,
+  "errors": [],
+  "warnings": [
+    "公众号建议 ≥800 汉字（骨架稿可再扩写）"
+  ]
+}

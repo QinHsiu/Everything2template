@@ -1,0 +1,9 @@
+{
+  "name": "everything2template",
+  "version": "0.3.0",
+  "description": "Everything → WeChat/XHS/Zhihu/Weibo/Douyin drafts with CIR, humanize, HTML/PDF export",
+  "author": {
+    "name": "QinHsiu"
+  },
+  "skills": ["./skill/everything2template"]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everything2template — 万物转公众号/小红书/知乎</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --fg: #f4f1ea;
+      --muted: #a8b0b8;
+      --accent: #3d9a7a;
+      --card: #1a222b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1d3b32 0%, var(--bg) 55%);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 64px 24px 96px; }
+    .brand { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; margin: 12px 0 16px; }
+    .lead { font-size: 1.15rem; color: var(--muted); max-width: 40rem; }
+    .cta { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 48px; }
+    a.btn {
+      display: inline-block; padding: 12px 18px; border-radius: 8px;
+      text-decoration: none; font-weight: 600;
+    }
+    a.btn-primary { background: var(--accent); color: #04140f; }
+    a.btn-ghost { border: 1px solid #345; color: var(--fg); }
+    section { margin: 48px 0; }
+    h2 { font-size: 1.35rem; margin-bottom: 12px; }
+    ul { color: var(--muted); }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { background: var(--card); padding: 18px; border-radius: 12px; border: 1px solid #2a3540; }
+    .card h3 { margin: 0 0 8px; font-size: 1rem; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    code { background: #11181f; padding: 2px 6px; border-radius: 4px; }
+    footer { margin-top: 64px; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Everything2template</div>
+    <h1>任何材料 → 公众号 / 小红书 / 知乎草稿 → MD & PDF</h1>
+    <p class="lead">本地优先、适配任意 Agent 的内容转换 Skill。先 CIR，再按平台重建——不是同文换皮。</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#pay">关注 Tecience 回复 E2T</a>
+      <a class="btn btn-ghost" href="https://github.com/QinHsiu/Everything2template">查看 GitHub</a>
+    </div>
+
+    <section>
+      <h2>解决什么</h2>
+      <div class="grid">
+        <div class="card"><h3>万物摄入</h3><p>网页、PDF、DOCX、Markdown、代码、项目树。</p></div>
+        <div class="card"><h3>平台重建</h3><p>公众号 / 小红书 / 知乎各自结构与语风。</p></div>
+        <div class="card"><h3>可交付导出</h3><p>Markdown + 中文 PDF，方便存档与客户交付。</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>30 秒上手</h2>
+      <pre><code>pip install -e .
+e2t run examples/sample_inputs/demo_article.md
+# Cursor: /e2t &lt;source&gt;</code></pre>
+    </section>
+
+    <section id="pay">
+      <h2>定价与付费</h2>
+      <ul>
+        <li><strong>Hobby</strong>：免费开源核心（五平台 + CIR + 导出）</li>
+        <li><strong>Pro</strong>：¥99 / $19 — 声线包、Pro 模板、批量工作流、12 个月更新</li>
+        <li><strong>Team</strong>：¥499 / $79 — 5 席位 + 异步 onboarding</li>
+      </ul>
+      <p style="color:var(--muted)">国内主通道：微信搜索关注公众号 <strong>Tecience</strong>，回复 <strong>E2T</strong> 获取付款与 Pro 交付说明。详见仓库 <code>docs/tecience_funnel.md</code>。</p>
+    </section>
+
+    <footer>
+      Apache-2.0 core · Not a matrix auto-publisher · You own your accounts and copyright.
+    </footer>
+  </main>
+</body>
+</html>

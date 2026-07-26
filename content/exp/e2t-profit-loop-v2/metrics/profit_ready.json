@@ -1,0 +1,131 @@
+{
+  "profit_ready_score": 1.0,
+  "threshold": 0.9,
+  "profit_ready": true,
+  "commercializable": true,
+  "competitive_parity": 1.0,
+  "checkout_live": false,
+  "note": "Checkout URL is operational step; packaging+offer must be complete first.",
+  "checks": [
+    {
+      "item": "sales_page",
+      "ok": true,
+      "path": "docs/\sales.md"
+    },
+    {
+      "item": "sales_has_price",
+      "ok": true,
+      "path": "docs/\sales.md"
+    },
+    {
+      "item": "case_study",
+      "ok": true,
+      "path": "examples/\case_study/README.md"
+    },
+    {
+      "item": "claude_plugin",
+      "ok": true,
+      "path": "\.claude-plugin/plugin.json"
+    },
+    {
+      "item": "install_ps1",
+      "ok": true,
+      "path": "scripts/\install.ps1"
+    },
+    {
+      "item": "install_sh",
+      "ok": true,
+      "path": "scripts/\install.sh"
+    },
+    {
+      "item": "pro_voice",
+      "ok": true,
+      "path": "packaging/\pro/voices/pro_operator.json"
+    },
+    {
+      "item": "pro_template",
+      "ok": true,
+      "path": "packaging/\pro/templates/wechat_pro.md"
+    },
+    {
+      "item": "pro_readme",
+      "ok": true,
+      "path": "packaging/\pro/README.md"
+    },
+    {
+      "item": "build_release",
+      "ok": true,
+      "path": "scripts/\build_release.py"
+    },
+    {
+      "item": "research_module",
+      "ok": true,
+      "path": "src/\e2t/research.py"
+    },
+    {
+      "item": "images_module",
+      "ok": true,
+      "path": "src/\e2t/images.py"
+    },
+    {
+      "item": "titles_module",
+      "ok": true,
+      "path": "src/\e2t/titles.py"
+    },
+    {
+      "item": "converter_depth",
+      "ok": true,
+      "path": "skill/\everything2template/references/converter-depth.md"
+    },
+    {
+      "item": "landing",
+      "ok": true,
+      "path": "docs/\landing.html"
+    },
+    {
+      "item": "gumroad_listing",
+      "ok": true,
+      "path": "docs/\gumroad_listing.md"
+    },
+    {
+      "item": "release_build",
+      "ok": true,
+      "path": "scripts/build_release.py"
+    },
+    {
+      "item": "hobby_zip",
+      "ok": true,
+      "path": "\releases/everything2template-hobby-0.3.0-2026-07-26.zip"
+    },
+    {
+      "item": "pro_zip",
+      "ok": true,
+      "path": "\releases/everything2template-pro-0.3.0-2026-07-26.zip"
+    },
+    {
+      "item": "commercializable",
+      "ok": true,
+      "path": "commercial_score"
+    },
+    {
+      "item": "parity_ge_085",
+      "ok": true,
+      "path": "parity=1.0"
+    },
+    {
+      "item": "tests_pass",
+      "ok": true,
+      "path": "pytest"
+    }
+  ],
+  "exhausted_plans": [
+    "SaaS web UI (out of skill wedge)",
+    "Auto-publish with cookies (account risk)"
+  ],
+  "remaining_for_revenue": [
+    "Create Gumroad products and paste real checkout URLs into docs/sales.md + landing.html",
+    "Upload hobby/pro zips from releases/",
+    "Post launch thread + demo from docs/demo_script.md",
+    "Close 3 design-partner interviews"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "platform": "wechat",
+  "ok": true,
+  "score": 100.0,
+  "errors": [],
+  "warnings": [],
+  "compliance": {
+    "ok": true,
+    "hits": [],
+    "notes": []
+  }
+}
