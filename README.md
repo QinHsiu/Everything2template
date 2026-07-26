@@ -6,10 +6,15 @@
 </p>
 
 <p align="center">
+  <img src="docs/assets/tecience/banner.png" alt="From Tecience" width="720" />
+</p>
+
+<p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-0B3D2E?style=flat-square" /></a>
   <a href="pyproject.toml"><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-1F6F4A?style=flat-square" /></a>
   <a href="docs/strongest_score.json"><img alt="Strongest gate" src="https://img.shields.io/badge/Quality_gate-strongest__score-2F9E6E?style=flat-square" /></a>
   <a href="docs/competitive.md"><img alt="OSS" src="https://img.shields.io/badge/Positioning-Open_source_strongest-C4A35A?style=flat-square" /></a>
+  <a href="#tecience-公众号--来源与关注"><img alt="Tecience" src="https://img.shields.io/badge/From-Tecience_公众号-0B3D2E?style=flat-square" /></a>
 </p>
 
 <p align="center">
@@ -143,15 +148,30 @@ content/publish/         # Tecience-ready launch assets (optional channel)
 
 ---
 
+## Tecience 公众号 · 来源与关注
+
+本仓库由微信公众号 **Tecience** 开源维护。扫码关注 / 打开仓库：
+
+| 微信扫码关注 Tecience | 本仓库 GitHub | 作者主页 |
+|:---:|:---:|:---:|
+| <img src="docs/assets/tecience/qr-wechat.png" width="180" alt="Tecience WeChat OA" /> | <img src="docs/assets/tecience/qr-repo.png" width="180" alt="Everything2template" /> | <img src="docs/assets/tecience/qr-github.png" width="180" alt="QinHsiu" /> |
+
+- **关注：** 微信扫一扫上方公众号码，或搜一搜 **Tecience**  
+- **关键词：** 回复 `E2T` 获取改写技能相关说明与更新（可选 Pro / 支持不挡开源核心）  
+
+官方码原图：`docs/assets/tecience/qr-wechat-oa.png`
+
+---
+
 ## License & support
 
 - **License:** [Apache-2.0](LICENSE) — open core, free to use and fork  
 - **Changelog:** [CHANGELOG.md](CHANGELOG.md)  
 - **Support:** [SUPPORT.md](SUPPORT.md)  
-- **Optional tips / Pro extras:** WeChat OA **Tecience** (reply `E2T`) — does **not** gate the open core  
+- **From:** WeChat OA **Tecience**（上表扫码 / 搜一搜）
 
 ---
 
 <p align="center">
-  <sub>Local-first · Agent-native · Publishable by default</sub>
+  <sub>Local-first · Agent-native · Publishable by default · From Tecience</sub>
 </p>
