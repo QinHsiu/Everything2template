@@ -44,7 +44,7 @@ Task Progress:
 ```text
 /e2t https://example.com/blog/post
 /e2t_wechat ./paper.pdf
-/e2t_xhs D:/code/my-project
+/e2t_xhs ./
 /e2t_zhihu 粘贴长文…
 /e2t_export path=content/runs/<id>/wechat/draft.md format=both
 ```
